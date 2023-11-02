@@ -1,0 +1,47 @@
+.navbar {
+    background-color: rgb(55, 41, 78);
+}
+
+.navbar * {
+    color: white;
+}
+
+.cat {
+    width: 25%;
+    height: 25%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    margin: 0.5rem;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(55, 41, 78, 0.393);
+}
+
+/* Website displays menu version of navbar for smaller screens */
+@media (min-width: 992px) {
+    .dropdown {
+        display:none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+p, li, label, a {
+    font-family: serif;
+}
+
+/* body *:not(h1, h2) {
+    font-family: serif;
+} */

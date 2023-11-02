@@ -38,10 +38,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
 }
 
-p, li, label, a {
+main *:not(h1, h2, h3, h4, h5, h6) {
     font-family: serif;
 }
-
-/* body *:not(h1, h2) {
-    font-family: serif;
-} */
